@@ -35,22 +35,22 @@ class ViewController: UIViewController {
     
     func changeDiceImage(randomDiceIndex: Int, diceViewImage: UIImageView) {
         switch randomDiceIndex {
-        case 1:
+        case 0:
             diceViewImage.image = #imageLiteral(resourceName: "dice1")
             break
-        case 2:
+        case 1:
             diceViewImage.image = #imageLiteral(resourceName: "dice2")
             break
-        case 3:
+        case 2:
             diceViewImage.image = #imageLiteral(resourceName: "dice3")
             break
-        case 4:
+        case 3:
             diceViewImage.image = #imageLiteral(resourceName: "dice4")
             break
-        case 5:
+        case 4:
             diceViewImage.image = #imageLiteral(resourceName: "dice5")
             break
-        case 6:
+        case 5:
             diceViewImage.image = #imageLiteral(resourceName: "dice6")
             break
         default:
